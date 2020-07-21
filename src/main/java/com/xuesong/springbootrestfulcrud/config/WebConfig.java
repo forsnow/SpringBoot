@@ -37,8 +37,8 @@ public class WebConfig implements WebMvcConfigurer {
     //配置拦截器
     @Override
     public void addInterceptors(InterceptorRegistry registry) {
-        registry.addInterceptor(new LoginHandlerInterceptor()).addPathPatterns("/**")
-        .excludePathPatterns("/index.html","/","/user/login","/asserts/**","/webjars/**");
-        //静态资源 spring2.0以上还是拦截的 需要配置
+//        registry.addInterceptor(new LoginHandlerInterceptor()).addPathPatterns("/**")
+//        .excludePathPatterns("/index.html","/","/user/login","/asserts/**","/webjars/**");
+//        //静态资源 spring2.0以上还是拦截的 需要配置
     }
 }
