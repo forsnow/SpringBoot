@@ -1,12 +1,10 @@
 package com.xuesong.springbootrestfulcrud.controller;
 
-import com.sun.org.glassfish.gmbal.ParameterNames;
 import com.xuesong.springbootrestfulcrud.exception.UserNotExitException;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.ResponseBody;
-import org.springframework.web.bind.annotation.RestController;
 
 import java.util.Arrays;
 import java.util.Map;
